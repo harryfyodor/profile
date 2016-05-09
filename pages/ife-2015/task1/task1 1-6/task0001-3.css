@@ -1,0 +1,58 @@
+/*三栏布局第一种*/
+.three-field-1 {
+	width: 80%;
+	height: 300px;
+	margin: 20px auto;
+	background-color: burlywood;
+	overflow: hidden;
+	
+}
+.left-field {
+	width: 200px;
+	height: 300px;
+	background-color: chocolate;
+	float: left;
+}
+.middle-field {
+	width: 100%;
+	height: 300px;
+	background-color: brown;
+	float: left;
+	z-index: 100;
+}
+.right-field {
+	width: 200px;
+	height: 300px;
+	background-color: chocolate;
+	float: right;
+}
+.middle-field-container {
+	margin: 0 200px 0 200px;
+}
+/*三栏布局第二种*/
+.three-field-2 {
+	width: 80%;
+	height: 300px;
+	margin: 20px auto;
+	background-color: burlywood;
+	overflow: hidden;
+	position: relative;
+}
+.left-field-2 {
+	width: 200px;
+	height: 300px;
+	background-color: chocolate;
+	position: absolute;
+}
+.right-field-2 {
+	width: 200px;
+	height: 300px;
+	background-color: chocolate;
+	position: absolute;
+	top:0; right:0;
+}
+.middle-field-2 {
+	height: 300px;
+	margin: 0 200px 0 200px;
+	background-color: brown;
+}

@@ -1,0 +1,38 @@
+index
+
+1，background的设置方法：
+background-image:url(../img/banner-bg.jpg)
+这里的定位是从css到图片，所以和从html到图片有所不同。这里需要用../ 开头。
+background-repeat 设置背景图片的堆叠方式。
+background-size:100% 设置背景不要缩太小或者太大
+
+2，图片颜色渐变的设置方法：
+background: -moz-linear-gradient(top, rgba(255,255,255,0.5), rgba(255,255,255,0.3) 75%, rgba(255,255,255,0));
+background: -webkit-linear-gradient(top, rgba(255,255,255,0.5), rgba(255,255,255,0.3) 75%, rgba(255,255,255,0));
+background: -o-linear-gradient(top, rgba(255,255,255,0.5), rgba(255,255,255,0.3) 75%, rgba(255,255,255,0));
+从顶部到下面75%处是从白色透明度0.5到0.3，然后75%到100%处是用0.3到0。线性变化功能还可以设置更为详细的差别。
+
+3，关于float
+如果上面的元素使用了float，为了使得下面的元素不会冲上去包围它，在上面的元素外面框框上加overflow:hidden，zoom:1 这样就可以启动BFC使得下面的内容不会冲上去。闭合浮动。
+
+4，定位文字的方式除了传统的方式以外还可以使用比如line-height等神奇方法。
+
+5，居中最常用的方法还是margin:0 auto 方便快捷，以上一个元素为基准的居中。
+
+6，display:inline-block 在希望元素一格一格排开的时候可以使用，可以配合float使用，使得所需要的元素排列成一行或者多行。使用float的原因是如果不使用，元素的上方就对不齐了。就无法达到登高布局。
+
+7，用div装图片的时候要定好width和height，还要在图片本身img也定好这个数值。
+
+8，position值为relative的时候，本身元素所占据的位置还会留下来。
+
+9，border-radius的使用方法是边距的圆度。
+
+10，文字居中可以使用text-align
+
+blog
+1，背景遮盖问题。当把元素移到外面背景的时候，元素本身被遮盖了起来。这时候可以拓展当前元素再定位来使得元素重新回到最外。这方法很蠢。
+
+2，一排方框框起来的链接，把div中的a扩充开来，填满原本的div。li也可完成任务，不过visited可能就要考虑一下了。
+
+gallery
+1，流式布局，以竖列为基础的布局方式。重点是规定好每一个竖列的宽度边距等等。

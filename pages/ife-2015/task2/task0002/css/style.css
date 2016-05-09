@@ -1,0 +1,357 @@
+body {
+	background-color: floralwhite;
+}
+h1,p,div,button,textarea,input {
+	margin: 0;
+	padding-top: 0;
+	font-family: Microsoft YaHei;
+}
+#task2 {
+	width: 960px;
+	margin: 20px auto;
+	line-height: 1.5;
+}
+/*task0002_1*/
+#task2-1 {
+	width: 960px;
+	height: auto;
+	margin: 10px auto;
+}
+.task2-1-des {
+	white-space: pre-line;
+	width: 50%;
+	float: left;
+	display: inline-block;
+	line-height: 1.5;
+}
+.task2-1-des h1 {
+	text-align: center;
+	margin: 0 auto;
+}
+.task2-1-func {
+	width: 50%;
+	float: right;
+	background-color: transparent;
+	display: inline-block;
+	position: relative;
+	top: 140px;
+}
+.task2-1-input {
+	width: 400px;
+	height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+}
+.task2-1-btn {
+	display: block;
+	margin-left: 40px;
+	width: 80px;
+	height: 40px;
+	margin-top: 20px;
+	background-color: cornsilk;
+	border-radius: 10px;
+}
+.task2-1-output {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+.task2-1-output-container {
+	width: 400px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+	font-size: 16px;
+}
+/*task0002_2*/
+#task2-2 {
+	width: 960px;
+	margin: 20px auto;
+	height: auto;
+}
+.task2-2-des {
+	width: 50%;
+	height: auto;
+	float: left;
+	display: inline-block;
+	line-height: 1.5;
+}
+.task2-2-des h1 {
+	text-align: center;
+}
+.task2-2-func {
+	width: 50%;
+	float: right;
+	display: inline-block;
+	text-align: center;
+}
+.task2-2-input {
+	margin-top: 80px;
+}
+.task2-2-text {
+	width: 75%;
+	height: 60px;
+	display: block;
+	margin: 0 auto;
+}
+.task2-2-btn {
+	display: block;
+	margin-left: 60px;
+	width: 80px;
+	height: 40px;
+	margin-top: 20px;
+	background-color: cornsilk;
+	border-radius: 10px;
+}
+.task2-2-output-con {
+	margin-top: 20px;
+	font-size: 18px;
+	color: red;
+}
+/*task0002_3*/
+#task2-3 {
+	width: 960px;
+	height: auto;
+	margin: 50px auto;
+}
+.task2-3-des {
+	width: 50%;
+	float: left;
+}
+.task2-3-des h1 {
+	text-align: center;
+}
+.task2-3-des li {
+	line-height: 1.5;
+}
+.task2-3-func {
+	width: 50%;
+	text-align: center;
+	float: right;
+}
+.task2-3-show {
+	width: 400px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	overflow: hidden;
+	z-index: -1;
+}
+.task2-3-longpic {
+	height: 250px;
+	width: 2800px;
+	position: relative;
+}
+.task2-3-longpic div {
+	width: 400px;
+	height: 300px;
+	display: inline-block;
+}
+.task2-3-1 {
+	background-color: burlywood;
+}
+.task2-3-2 {
+	background-color: crimson;
+}
+.task2-3-3 {
+	background-color: cyan;
+}
+.task2-3-4 {
+	background-color: brown;
+}
+.task2-3-5 {
+	background-color: chartreuse;
+}
+.task2-3-os {
+	width: 400px;
+	margin: 0 auto;
+	position: relative;
+	right: 20px;
+}
+.task2-3-os ul li {
+	display: inline-block;
+	width: 10px;
+	height: 10px;
+	border-radius: 10px;
+	border: 1px solid black;
+	cursor: pointer;
+}
+.task2-3-darken {
+	background-color: black;
+}
+.task2-3-direction {
+	width: 400px;
+	height: 250px;
+	margin-left: auto;
+	margin-right: auto;
+	position: relative;
+	background-color: transparent;
+	bottom: 325px;
+}
+.task2-3-left {
+	width: 50%;
+	height: 250px;
+	display: inline-block;
+	background-color: transparent;
+}
+.task2-3-right {
+	width: 50%;
+	height: 250px;
+	display: inline-block;
+	background-color: transparent;
+}
+/*task0002_4*/
+#task2-4 {
+	width: 960px;
+	height: auto;
+	margin: 50px auto;
+	background-color: floralwhite;
+}
+.task2-4-des {
+	width: 50%;
+	float: left;
+	height: auto;
+}
+.task2-4-des h1 {
+	text-align: center;
+}
+.task2-4-des li {
+	line-height: 1.5;
+}
+.task2-4-func {
+	width: 45%;
+	float: right;
+	margin-top: 30px;
+}
+.task2-4-input {
+	width: 300px;
+	height: 40px;
+	line-height: 40px;
+	font-size: 20px;
+}
+.task2-4-btn {
+	position: relative;
+	bottom: 2px;
+	height: 46px;
+	background-color: floralwhite;
+}
+.task2-4-choice {
+	width: 299px;
+}
+.task2-4-choice span {
+	width: 300px;
+	display: block;
+	line-height: 1.5;
+	/*background-color: white;*/
+	border-bottom: 1px solid gray;
+	border-left: 1px solid gray;
+	border-right: 1px solid gray;
+}
+.task2-4-choice span:hover {
+	background-color: bisque;
+}
+.task2-4-hover {
+	background-color: bisque;
+}
+/*task0002_5*/
+#task2-5 {
+	width: 960px;
+	height: auto;
+	margin: 50px auto;
+}
+.task2-5-des {
+	width: 50%;
+	float: left;
+	height: auto;
+}
+.task2-5-des h1 {
+	text-align: center;
+}
+.task2-5-des li {
+	line-height: 1.5
+}
+.task2-5-func {
+	width: 50%;
+	float: right;
+	position: relative;
+}
+.task2-5-left {
+	height: 400px;
+	width: 150px;
+	left: 100px;
+	background-color: white;
+	display: inline-block;
+	border: 1px solid black;
+	position: relative;
+}
+.task2-5-left div {
+	height: 38px;
+	width: 100%;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	background-color: red;
+	cursor: move;
+	position: absolute;
+	text-align: center;
+	line-height: 39px;
+}
+.task2-5-left div:hover {
+	cursor: pointer;
+}
+.task2-5-right {
+	height: 400px;
+	width: 150px;
+	left: 200px;
+	background-color: white;
+	display: inline-block;
+	border: 1px solid black;
+	position: relative;
+}
+.task2-5-right div {
+	height: 38px;
+	width: 100%;
+	border-bottom: 1px solid black;
+	border-top: 1px solid black;
+	background-color: red;
+	cursor: move;
+	position: absolute;
+	text-align: center;
+	line-height: 39px;
+}
+.task2-5-right div:hover {
+	cursor: pointer;
+}
+#task2-5-1 {
+	background-color: red;
+	cursor: move;
+}
+#task2-5-2 {
+	top: 40px;
+}
+#task2-5-3 {
+	top: 80px;
+}
+#task2-5-4 {
+	top: 120px;
+}
+#task2-5-5 {
+	top: 160px;
+}
+#task2-5-6 {
+	
+}
+#task2-5-7 {
+	top: 40px;
+}
+#task2-5-8 {
+	top: 80px;
+}
+#task2-5-9 {
+	top: 120px;
+}
+#task2-5-10 {
+	top: 160px;
+}

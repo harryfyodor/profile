@@ -1,0 +1,338 @@
+body,h1,div,ul,li {
+	margin: 0;
+	padding: 0;
+	font-family: STXihei;
+}
+#heading {
+	width: 100%;
+	height: 60px;
+	background-color: #DDDDDD;
+}
+#heading h1 {
+	line-height: 60px;
+	padding-left: 10px;
+	color: #A4A4A4;
+}
+#main {
+	width: 100%;
+	min-width: 700px;
+}
+#main>div {
+	display: inline-block;
+}
+/*cata*/
+/*c3为大的目录，c2为中的目录*/
+#catalog {
+	width: 250px;
+	height: 100%;
+	background-color: #F2F2F2;
+	border-right: 2px solid #DDDDDD; 
+	float: left;
+}
+#docu-new {
+	width: 180px;
+	height: 50px;
+	position: absolute;
+	border-top: 2px solid #DDDDDD; 
+	bottom: 0px;
+	background-color: #EEEEEE;
+	line-height: 50px;
+	font-size: 20px;
+	padding-left: 70px;
+	font-weight: 500;
+	cursor: pointer;
+}
+#catalog-all {
+	line-height: 40px;
+	margin-left: 30px;
+	font-weight: 800;
+	color: #656565;
+	cursor: pointer;
+}
+#catalog-list span {
+	line-height: 40px;
+	margin-left: 30px;
+	font-weight: 800;
+	color: #656565;
+}
+.c3 {
+	line-height: 25px;
+	margin-left: 30px;
+	font-weight: 800;
+	color: #656565;
+	list-style: none;
+	cursor: pointer;
+}
+.c2 {
+	margin-left: 25px;
+	cursor: pointer;
+	list-style: circle;
+}
+.c2:hover {
+	color: blue;
+}
+.delete-c2 {
+	color: #f2f2f2;
+	float: right;
+	font-weight: 400;
+	margin-right: 20px;
+}
+.c2:hover .delete-c2 {
+	color: black;
+}
+.c2-active {
+	color: blue;
+}
+.delete-c3 {
+	color: #f2f2f2;
+	float: right;
+	font-weight: 400;
+	margin-right: 20px;
+}
+.c3:hover .delete-c3 {
+	color: black;
+}
+/*docu*/
+/*d1为日期，d2为task任务*/
+#docu {
+	width: 250px;
+	height: 100%;
+	border-right: 2px solid #DDDDDD; 
+	float: left;
+	background-color: white;
+}
+#docu-heading {
+	width: 100%;
+	height: 38px;
+	border-bottom: 2px solid #DDDDDD;
+	background-color: #f2f2f2;
+}
+#docu-heading li {
+	list-style: none;
+	display: inline-block;
+	margin-top: 6px;
+	margin-left: 6px;
+	border: 1px solid #DDDDDD;
+	padding: 1px 2px;
+	background-color: white;
+	cursor: pointer;
+	border-radius: 2px;
+}
+.d1 {
+	list-style: none;
+	padding-left: 10px;
+	line-height: 25px;
+	background-color: #FAFAEE;
+}
+.d2 {
+	width: 220px;
+	list-style: none;
+	padding-left: 30px;
+	line-height: 30px;
+	background-color: white;
+	position: relative;
+	right: 10px;
+	cursor: pointer;
+	overflow: hidden;
+}
+.delete-d {
+	float: right;
+	margin-right: 20px;
+	color: white;
+}
+.d2:hover .delete-d {
+	color: black;
+}
+.d2-active {
+	color: blue;
+}
+#task-new {
+	width: 180px;
+	height: 50px;
+	position: absolute;
+	border-top: 2px solid #DDDDDD; 
+	bottom: 0px;
+	background-color: #EEEEEE;
+	line-height: 50px;
+	font-size: 20px;
+	padding-left: 70px;
+	font-weight: 500;
+	cursor: pointer;	
+}
+/*task*/
+#main-con {
+	width: 100%;
+	height: 607px;
+}
+#main-heading {
+	width: 100%;
+	height: 48px;
+	border-bottom: 2px solid #DDDDDD;
+	position: absolute;
+	background-color: #f2f2f2;
+	z-index: -1;
+}
+/*任务标题栏*/
+/*点击“第二个新建”后的切换——名字*/
+#main-task-name {
+	position: absolute;
+	left: 515px;
+	top: 14px;
+	font-size: 18px;
+	font-weight: 600;
+	display: block;
+}
+#main-heading-edit {
+	position: absolute;
+	top: 74px;
+	left: 595px;
+	display: none;
+}
+#main-heading-title-label {
+	font-size: 16px;
+	position: absolute;
+	top:74px;
+	left: 515px;
+	display: none;
+}
+/*任务日期信息栏*/
+/*点击“第二个新建”后的切换——日期*/
+#main-date {
+	position: absolute;
+	left: 515px;
+	top: 14px;
+	font-size: 16px;
+}
+#main-date p {
+	display: inline;
+}
+#main-date-edit {
+	position: absolute;
+	left: 595px;
+	top: 124px;
+	display: none;
+}
+#main-info {
+	width: 100%;
+	height: 50px;
+	border-bottom: 2px solid #DDDDDD;
+	background-color: #FAFAEE;
+	position: absolute;
+	top: 110px;
+	z-index: -1;
+}
+/*点击“第二个新建”后的切换——新建*/
+/*点击“编辑”后按钮的切换——按钮*/
+#main-edit,#main-finished,#main-edit-finished,#main-edit-new-build,#main-edit-new-build-cancel {
+	float: right;
+	width: 50px;
+	height: 30px;
+	margin-top: 10px;
+	margin-right: 10px;
+	border: 1px solid #DDDDDD;
+	background-color: white;
+	cursor: pointer;
+	border-radius: 2px;
+	display: block;
+}
+#main-edit-finished {
+	width: 100px;
+	display: none;
+}
+#main-edit-new-build {
+	width: 50px;
+	display: none;
+}
+#main-edit-new-build-cancel {
+	width: 50px;
+	display: none;
+}
+/*任务内容栏*/
+/*点击“编辑”后的切换——编辑文本框*/
+/*点击“第二个新建”后的切换——新建文本框*/
+#main-task-content{
+	width: 50%;
+	height: 400px;
+	position: absolute;
+	float: right;
+	left: 520px;
+	top: 160px;
+}
+#main-task-content>p {
+	white-space: pre-wrap;
+	display: block;
+}
+#main-task-content textarea {
+	width: 100%;
+	height: 300px;
+	position: relative;
+	top: 20px;
+	font-size: 16px;
+	display: none;
+}
+
+/*new-cata*/
+/*点击“第一个新建”后的切换——页面*/
+#all-container-2 {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	/*弹出层*/
+	display: none;
+}
+#darken-background {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	top: 0;
+	background-color: black;
+	opacity: 0.3;
+}
+#input-cata-container {
+	width: 400px;
+	height: 250px;
+	background-color: #DDDDDD;
+	opacity: 1;
+	z-index: 9999;
+	position: relative;
+	margin: 150px auto;
+}
+#input-cata-container>p {
+	width: 72px;
+	margin: 30px auto;
+	font-size: 18px;
+	line-height: 50px;
+}
+#input-cata {
+	width: 400px;
+	height: 200px;
+	position: absolute;
+	bottom: 0;
+	background-color: white;
+}
+#input-cata label {
+	position: relative;
+	display: block;
+	top: 38px;
+	left: 50px;
+}
+#input-cata input {
+	width: 200px;
+	height: 30px;
+	position: relative;
+	left: 120px;
+	top: 10px;
+}
+#input-cata p {
+	position: relative;
+	top: 5px;
+	left: 120px;
+}
+#input-cata button {
+	width: 50px;
+	height: 25px;
+	position: relative;
+	left: 100px;
+	margin-left: 30px;
+}

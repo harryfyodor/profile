@@ -1,0 +1,277 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: STXihei;
+}
+header {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  background-color: #DDDDDD;
+  z-index: 2;
+}
+header h1 {
+  margin-left: 10px;
+  line-height: 50px;
+  color: #B7A9A4;
+}
+li {
+  list-style: none;
+}
+button {
+  padding: 5px 8px;
+  background-color: #FAFAEE;
+  border-radius: 5px;
+  font-size: 14px;
+}
+body {
+  background-color: #f2f2f2;
+}
+.cata {
+  width: 100%;
+  min-height: 500px;
+  background-color: #f2f2f2;
+  font-size: 20px;
+}
+.cata > ul {
+  margin-top: 30px;
+}
+.cata .c1,
+.cata span {
+  line-height: 1.8;
+  padding-left: 20px;
+  border-bottom: 1px solid #DDDDDD;
+}
+.cata .c2 {
+  padding-left: 20px;
+}
+.cata a {
+  float: right;
+  position: relative;
+  right: 15px;
+}
+.cata a:hover {
+  color: red;
+}
+.cata .new-build-docu {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  background-color: #f2f2f2;
+  border-top: 2px solid #DDDDDD;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+}
+.docu {
+  width: 100%;
+  min-height: 500px;
+  background-color: white;
+  display: none;
+}
+.docu .new-build-task {
+  width: 100%;
+  height: 50px;
+  position: absolute;
+  bottom: 0;
+  background-color: #f2f2f2;
+  border-top: 2px solid #DDDDDD;
+  text-align: center;
+  line-height: 50px;
+  font-size: 24px;
+}
+.docu .return-docu {
+  background-color: #f2f2f2;
+  padding-top: 55px;
+  height: 40px;
+  width: 100%;
+  border-bottom: 2px solid #DDDDDD;
+}
+.docu .return-docu button {
+  margin-top: 3px;
+  margin-left: 20px;
+}
+.docu .docu-header {
+  background-color: #f2f2f2;
+  width: 100%;
+  height: 42px;
+  border-bottom: 2px solid #DDDDDD;
+}
+.docu .docu-header li {
+  display: inline-block;
+  background-color: white;
+  border: 2px solid #DDDDDD;
+  margin-top: 5px;
+  padding: 3px 5px;
+  margin-left: 10px;
+  border-radius: 5px;
+  position: relative;
+  left: 8px;
+}
+.docu .d1 {
+  background-color: #FAFAEE;
+}
+.docu .d1 span {
+  font-size: 20px;
+  padding-left: 10px;
+  line-height: 2;
+}
+.docu .d2 {
+  font-size: 20px;
+  background-color: white;
+  padding-left: 20px;
+  line-height: 2;
+}
+.docu a {
+  float: right;
+  margin-right: 20px;
+}
+.docu a:hover {
+  color: red;
+}
+.task {
+  width: 100%;
+  min-height: 500px;
+  background-color: white;
+  display: none;
+}
+.task .task-btn-group {
+  background-color: #f2f2f2;
+  padding-top: 55px;
+  height: 40px;
+  width: 100%;
+  border-bottom: 2px solid #DDDDDD;
+}
+.task .task-btn-group button {
+  margin-top: 3px;
+  margin-left: 20px;
+}
+.task #edit,
+.task #finished,
+.task #edit-finished,
+.task #edit-new-build,
+.task #edit-cancel {
+  float: right;
+  margin-left: 0;
+  margin-right: 10px;
+  display: none;
+}
+.task #edit-new-build,
+.task #edit-cancel {
+  display: block;
+}
+.task #edit-finished {
+  display: none;
+}
+.task .task-header-name {
+  float: left;
+  width: 50%;
+  height: 40px;
+  background-color: #FAFAEE;
+  border-bottom: 2px solid #DDDDDD;
+}
+.task .task-header-name p {
+  display: none;
+  line-height: 2.5;
+  margin-left: 10px;
+}
+.task .task-header-date {
+  float: left;
+  width: 50%;
+  height: 40px;
+  background-color: #FAFAEE;
+  border-bottom: 2px solid #DDDDDD;
+}
+.task .task-header-date p {
+  display: inline;
+  display: none;
+  line-height: 2.5;
+  padding-top: 10px;
+}
+.task label,
+.task input {
+  margin-top: 8px;
+}
+.task label {
+  margin-left: 10px;
+}
+.task input {
+  width: 60%;
+  height: 25px;
+}
+.task .task-content p {
+  margin-left: 12px;
+  margin-top: 50px;
+  display: none;
+}
+.task .task-content textarea {
+  width: 80%;
+  position: relative;
+  left: 12px;
+  top: 12px;
+  height: 200px;
+}
+.new-build-background {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: 0.4;
+  position: absolute;
+  top: 0;
+  z-index: 3;
+}
+.new-build {
+  display: none;
+  background-color: white;
+  width: 80%;
+  height: 240px;
+  margin-top: 50px;
+  z-index: 4;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 0;
+  left: 10%;
+}
+.new-build .new-build-name {
+  width: 100%;
+  height: 40px;
+  background-color: #FAFAEE;
+  text-align: center;
+  line-height: 40px;
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+.new-build label {
+  display: block;
+  position: relative;
+  left: 24px;
+}
+.new-build input {
+  width: 50%;
+  display: block;
+  position: relative;
+  left: 100px;
+  bottom: 20px;
+  height: 24px;
+}
+.new-build p {
+  text-align: center;
+  padding-top: 10px;
+}
+.new-build button {
+  margin-top: 10px;
+  margin-right: 20px;
+  position: relative;
+  left: 30%;
+}
+.c2-active {
+  color: blue;
+  font-weight: 900;
+}
+.d2-active {
+  color: blue;
+  font-weight: 900;
+}

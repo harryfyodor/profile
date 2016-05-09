@@ -1,0 +1,92 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8" >
+		<title>GTDTools</title>
+		<link rel="stylesheet" style="text/css" href="css/style.css">
+	</head>
+	<body>
+		<div id="all-container">
+			<div id="heading">
+				<h1>GTD Tools</h1>
+			</div>
+			<div id="main">
+				<div id="main-con">
+					<div id="catalog">
+						<div id="catalog-all">所有任务（11）</div>
+						<div id="catalog-list">
+							<span>分类列表</span>
+							<ul>
+								<li class="c3">默认分类</li>
+								<li class="c3">百度IFE项目<a class="delete-c3">删</a>
+									<ul>
+										<li class="c2 c2-active">task1<a class="delete-c2">删</a></li>
+										<li class="c2">task2<a class="delete-c2">删</a></li>
+									</ul>
+								</li>
+								<li class="c3">毕业设计<a class="delete-c3">删</a></li>
+								<li class="c3">社团活动<a class="delete-c3">删</a></li>
+								<li class="c3">家庭生活<a class="delete-c3">删</a></li>
+							</ul>
+						</div>
+						<div id="docu-new">新建文件</div>
+					</div><!--
+				 --><div id="docu">
+						<div id="docu-heading">
+							<ul>
+								<li>所有</li>
+								<li>未完成</li>
+								<li>已完成</li>
+							</ul>
+						</div>
+						<ul>
+							<li class="d1">2015-02-19
+								<ul>
+									<li class="d2 d2-active">简介</li>
+								</ul>
+							</li>
+						</ul>
+						<div id="task-new">新建任务</div>
+					</div>
+					<div id="main-heading">
+						<span id="main-task-name">to-do 6</span>
+					</div>
+					<label id="main-heading-title-label">任务标题:</label>
+					<input type="text" id="main-heading-edit">
+					<button id="main-edit">编辑</button>
+					<button id="main-finished">完成</button>
+					<button id="main-edit-finished">编辑完毕</button>
+					<button id="main-edit-new-build-cancel">取消</button>
+					<button id="main-edit-new-build">新建</button>
+					<div id="main-info">
+						<span id="main-date">任务时间：<p>2015-04-30</p></span>
+					</div>
+					<input type="text" id="main-date-edit">
+					<div id="main-task-content">
+						<p>GTDTools made by harryfyodor. 刚刚学JS，bug略多。</p>
+						<textarea></textarea>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div id="all-container-2">
+			<div id="input-cata-container">
+				<p>新建文件</p>
+				<div id="input-cata">
+					<label>文件名称</label>
+					<input type="text">
+					<label>选择分类</label>
+					<input type="text">
+					<p>（直接填写分类可新建分类）</p>
+					<button>确定</button>
+					<button>取消</button>
+				</div>
+			</div>
+			<div id="darken-background"></div>
+		</div>
+	<!--<script src="js/require.js" defer async="true" ></script>
+	<script src="js/require.js" data-main="js/main"></script>-->
+	<script src="js/util-harry.js"></script>
+	<script src="js/gtdTool.js"></script>
+	</body>
+</html>

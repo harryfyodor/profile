@@ -1,0 +1,87 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8" >
+		<title>GTDTools-2</title>
+		<script>
+			window.onload = function() {
+				if (navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i)) {
+					location.href = "mobile/index.html";
+				}
+			}
+		</script>
+		<link rel="stylesheet" style="text/css" href="css/style.css">
+	</head>
+	<body>
+		<header>
+			<h1>GTDTools-2</h1>
+		</header>
+		<div class="content">
+			<div class="task">
+				<div class="task-header-name">
+					<p>小任务1</p>
+					<label>输入标题:</label>
+					<input type="text">
+					<button id="edit">编辑</button>
+					<button id="finished">完成</button>
+					<button id="edit-finished">编辑好了</button>
+					<button id="edit-new-build">新建</button>
+					<button id="edit-cancel">取消</button>
+				</div>
+				<div class="task-header-date">
+					<label>任务日期:</label>
+					<p>2016-02-24</p>
+					<input type="text">
+				</div>
+				<div class="task-content">
+					<p>GTDTools-2 于 2016/2/27 完成。</p>
+					<textarea></textarea>
+				</div>
+			</div>
+			<div class="cata">
+				<span>任务分类</span>
+				<ul>
+					<li class="c1">默认分类</li>
+				</ul>
+				<div class="new-build-docu">新建文件</div>
+			</div>
+			<div class="docu">
+				<div class="docu-header">
+					<ul>
+						<li>所有</li>
+						<li>未完成</li>
+						<li>已完成</li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li class="d1">
+							<span>2016-02-27</span>
+							<ul>
+								<li class="d2">简介</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="new-build-task">新建文件</div>
+			</div>
+		</div>
+		<div class="new-build">
+			<div class="new-build-name">新建任务</div>
+			<div class="new-input">
+				<label>新文件名</label>
+				<input type="text">
+				<label>新分类名</label>
+				<input type="text">
+				<p>输入新名字就会新建文档</p>
+				<button>确定</button>
+				<button>取消</button>
+			</div>
+		</div>
+		<div class="new-build-background"></div>
+	<script src="js/require.js" defer async="true" ></script>
+	<script src="js/require.js" data-main="js/main"></script>
+	<!--<script src="js/util-harry.js"></script>
+	<script src="js/gtdTool.js"></script>-->
+	</body>
+</html>

@@ -1,0 +1,31 @@
+h1 {
+	color:blue;
+	text-align:center;
+}
+* {
+	text-align:center;
+}
+body {
+	line-height: 2;
+}
+.myContent {
+	text-indent: 30px;
+	text-transform: lowercase;
+	text-align: center;
+	width: 700px;
+	color: gray;
+	background-color:black;
+	font-size: 20px;
+	font-weight: 500;
+	font-family: Microsoft YaHei;
+	word-spacing: 8px;
+	margin-left: auto;
+	margin-right: auto;
+	line-height: 1.5;
+}
+a {
+	text-decoration: none;
+}
+ul li {
+	list-style-type: none;
+}

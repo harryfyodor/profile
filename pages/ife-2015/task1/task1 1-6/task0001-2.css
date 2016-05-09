@@ -1,0 +1,22 @@
+.position {
+	width: 70%;
+	height: auto;
+	background-color: brown;
+	margin: 10px auto;
+}
+.square {
+	height: 200px;
+	width: 250px;
+	display: inline-block;
+	margin-top: 10px;
+	background-color: cornflowerblue;
+	margin-left: 30px;
+	margin-bottom: 30px;
+}
+
+#first {
+}
+#second {
+}
+#third {
+}

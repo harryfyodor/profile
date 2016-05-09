@@ -1,0 +1,92 @@
+<!DOCTYPE>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html" charset="utf-8" >
+		<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport" />
+		<meta content="yes" name="apple-mobile-web-app-capable" />
+		<meta content="black" name="apple-mobile-web-app-status-bar-style" />
+		<meta content="telephone=no" name="format-detection" />
+		<title>GTDTools-2</title>
+		<link rel="stylesheet" style="text/css" href="../css/style-for-mobile.css">
+	</head>
+	<body>
+		<header>
+			<h1>GTDTools-2</h1>
+		</header>
+		<div class="content">
+			<div class="cata">
+				<span>任务分类</span>
+				<ul>
+					<li class="c1">默认分类</li>
+				</ul>
+				<div class="new-build-docu">新建文件</div>
+			</div>
+			<div class="docu">
+				<div class="return-docu">
+					<button>返回</button>
+				</div>
+				<div class="docu-header">
+					<ul>
+						<li>所有</li>
+						<li>未完成</li>
+						<li>已完成</li>
+					</ul>
+				</div>
+				<div>
+					<ul>
+						<li class="d1">
+							<span>2016-02-24</span>
+							<ul>
+								<li class="d2">简介</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="new-build-task">新建文件</div>
+			</div>
+			<div class="task">
+				<div class="task-btn-group">
+					<button>返回</button>
+					<button id="edit">编辑</button>
+					<button id="finished">完成</button>
+					<button id="edit-finished">编辑好了</button>
+					<button id="edit-cancel">取消</button>
+					<button id="edit-new-build">新建</button>
+				</div>
+				<div class="task-header-name">
+					<p>小任务1</p>
+					<label>标题</label>
+					<input type="text">
+				</div>
+				<div class="task-header-date">
+					<p>任务日期:</p>
+					<p>2016-02-24</p>
+					<label>日期</label>
+					<input type="text">
+				</div>
+				<div class="task-content">
+					<p>GTDTools-2 于 2016/2/27 完成。</p>
+					<textarea></textarea>
+				</div>
+			</div>
+		</div>
+		<div class="new-build">
+			<div class="new-build-name">新建任务</div>
+			<div class="new-input">
+				<label>新文件名</label>
+				<input type="text">
+				<label>新分类名</label>
+				<input type="text">
+				<p>输入新名字就会新建文档</p>
+				<button>确定</button>
+				<button>取消</button>
+			</div>
+		</div>
+		<div class="new-build-background"></div>
+		<script src="../js/require.js" defer async="true" ></script>
+		<script src="../js/require.js" data-main="../js/main"></script>
+		<!--<script src="mobile-test.js"></script>-->
+	<!--<script src="js/util-harry.js"></script>
+	<script src="js/gtdTool.js"></script>-->
+	</body>
+</html>

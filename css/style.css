@@ -1,6 +1,11 @@
 @font-face {
 	font-family: myFont;
 	src: url("../font/fangzheng.TTF");
+	src:
+		url('../font/fangzheng.eot?#font-spider') format('embedded-opentype'),
+		url('../font/fangzheng.woff') format('woff'),
+		url('../font/fangzheng.TTF') format('truetype'),
+		url('../font/fangzheng.svg') format('svg');
 	font-weight: 500;
 }
 
